@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Merienda";
+    color: #6e6e6e;
+  }
+  
+  .portofoglio-container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 234px;
+    background-image: linear-gradient(to right,#FF4286,#FD7F78);
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+  .header-bubble {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+  }
+  
+  .profile-card {
+    background: white;
+    width: 700px;
+    height: 450px;
+    border-radius: 60px;
+    position: relative;
+    margin-top: 166px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .point-left {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 40px;
+    top: 40px;
+    background-color: #ff4286;
+  }
+  
+  .point-right {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    right: 40px;
+    top: 40px;
+    background-color: #fd7f78;
+  }
+  
+  .main-picture {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("images/me.jpg");
+    background-size: cover;
+  }
+  
+  .portofoglio-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+  
+  .portofoglio-name {
+    font-size: 42px;
+    font-weight: 700;
+    color: #6e6e6e;
+  }
+  
+  .portofoglio-location {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 10.52px    ;
+    color: #6e6e6e;
+    margin-top: 15px;
+  }
+  
+  .portofoglio-job {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6e6e6e;
+    margin-top: 50px;
+  }
+  
+  .stats-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+  }
+  
+  .stat-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat-number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #666666;
+  }
+  
+  .stat-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #6e6e6e;
+    margin-top: 10px;
+  }
+  
